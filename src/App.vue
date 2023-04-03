@@ -60,7 +60,7 @@ export default {
       this.loading = true
 
       const res = await axios.get(
-        `https://mouday.github.io/wallpaper-database/${this.date}.json`
+        `https://hzzheyang.github.io/wallpaper-database/${this.date}.json`
       )
       // console.log(res.data)
 
